@@ -4,7 +4,7 @@ body
 }
 .grid{
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, 1fr) !important;
   column-gap: 5px;
   row-gap: 5px;
   margin: auto;
@@ -14,10 +14,51 @@ body
   padding: 5px;
   background-color: #484849;
 }
-.numbers{
+.numbers , button{
   background-color: #777677;
   color: #FFFFFF;
   font-size: 32px;
-  width: 50px;
+  width: 100px !important;
+  height: 100px;
+  padding: 20px 40px;
+  text-align: center;
+}
+.symbole
+{
+  background-color: #FF9F0A;
+  color: #FFFFFF;
+  font-size: 42px;
+  width: 100px !important;
   padding: 20px;
+  font-weight: 900;
+}
+button{
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  padding: none;
+}
+.wrapper
+{
+  margin-top: 5% !important;
+  background-color: #464647;
+  width: fit-content;
+  margin: auto;
+  border-radius: 15px;
+  padding: 5px;
+}
+.display{
+  background-color:#464647;
+}
+.textbtn{
+  background-color:#464647;
+  color: white;
+  width: 93%;
+  text-align: right;
+  font-size: 32px;
+  margin: auto;
+  display: block;
+  border: none;
+  border-radius: 8px;
+  padding: 28px 10px;
 }
